@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "lexicon",
+    "json",
+    "discourse"
+  ],
+  "pluginsConfig": {
+    "json": {
+      "output": "_book/content.json"
+    },
+    "discourse": {
+       "url": "https://talk.vtaiwan.tw/",
+       "api_key": "",
+       "api_username": "vtaiwan",
+       "parent_category_id": 60,
+       "parent_category_name": "遠距教育：具體建議"
+    }
+  }
+}
